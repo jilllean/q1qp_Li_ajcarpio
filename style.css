@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@500&family=Poppins:wght@300&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@500&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0px;
+}
+.homepage{
+    background-color: #533220;
+    height: 100vh;
+    width: 100vw;
+}
+.profile{
+    margin-left: 2.5vw;
+    margin-bottom: 9vh;
+    padding-top: 3vh;
+}
+.profileicon{
+    position: fixed;
+    float: left;
+    width: 7vh;
+    height: 7vh;
+}
+.sidenavbar{
+    margin-left: 2vw;
+    width: 4vw;
+    background-color: #F8F1EA;
+    position: fixed;
+    border: solid #F8F1EA;
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+.links{
+    padding: 6px;
+    background-color: #F8F1EA;
+    border-top-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+.links img{
+    margin-left: 0.4vw;
+    margin-top: 2vh;
+    width: 2.5vw;
+    background-color:#F8F1EA;
+}
+.links:hover{
+    transform: scale(1.2);
+}
+.body{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    text-align: right;
+    margin-right: 5vw;
+}
+.body h1{
+    font-size: 4vw;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.body p{
+    margin-top: 5vh;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Poppins,sans-serif;
+}
+.body a{
+    text-decoration: none;
+    display: inline-block;
+    color: #533220;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1vh;
+    font-weight: bold;
+    transition: .4s;
+    background-color: #F8F1EA;
+    border-radius: 25px;
+}
+.bodylink1:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+.studybgpage{
+    background-color: #533220;
+    width: 100vw;
+    height: 100vh;
+}
+.studybgbody{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    text-align: right;
+    margin-right: 5vw;
+}
+.studybgbody img{
+    float: left;
+    width: 25vw;
+    margin-right: 5vw;
+}
+.studybgbody h2{
+    font-size: 4vw;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.studybgbody h3{
+    margin-top: 1vh;
+    color: #F8F1EA;
+    font-size: 1.5em;
+}
+.studybgbody p{
+    margin-top: 1vh;
+    color: white;
+    font-size: 1.5em;
+}
+.studybgbody a{
+    text-decoration: none;
+    display: inline-block;
+    color: #533220;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+    background-color: #F8F1EA;
+    border-radius: 25px;
+}
+
+.bodylink2:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+.datapage{
+    background-color: #533220;
+    width: 98.8vw;
+    height: 300vh;
+}
+.datapgbody{
+    position: absolute;
+    left: 15%;
+}
+.datapgbody h2{
+    font-size: 4vw;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.datapgbody p{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    color:#F8F1EA;
+    font-family: 'Poppins', sans-serif;
+}
+.pics{
+    margin-left: 10vw;
+}
+.numstudentspic img{
+    width: 16.5vw;
+    height: 45vh;
+    margin: 1%;
+}
+.numfacultypic img{
+    width: 16.5vw;
+    height: 45vh;
+    margin: 1%;
+}
+.facultystudentpic img{
+    width: 16.5vw;
+    height: 45vh;
+    margin: 1%;
+}
+.progresschart img{
+    width: 50vw;
+    height: 60vh;
+    margin: 1%;
+}
+.standardchart img{
+    width: 60vw;
+    height: 40vh;
+    margin: 1%;
+}
+.conclupage{
+    background-color: #533220;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    
+}
+.conclupgbody{
+    margin-left: 10vw;
+}
+.conclupgbody h1{
+    font-size: 4vw;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.concluchart{
+    margin-left: 9vw;
+}
+.concluchart img{
+    width: 60vw;
+    height: 40vh;
+    
+}
+.conclupgbody p{
+    margin-right: 8vw;
+    margin-top: 3vh;
+    color:#F8F1EA;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+.refpage{
+    background-color: #533220;
+    overflow: scroll;
+}
+.refpgbody{
+    margin-left: 10vw;
+}
+.refpgbody h2{
+    font-size:xx-large;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.refpgbody p{
+    color:#F8F1EA;
+    font-family: 'Poppins', sans-serif;
+}
+.grmates{
+    display: inline-block;
+}
+#me{
+    margin-left:4vw;
+    margin-right:3vw;
+    max-width: 25%;
+    height: auto;
+}
+#gpmates1{
+    max-width: 15%;
+    height: auto;
+    margin-left: 6.5vw;
+    margin-right: 3vw;
+}
+#gpmates2{
+    max-width: 15%;
+    height: auto;
+    margin-left: 6.5vw;
+}
+#aboutme{
+    max-width: 33%;
+
+    text-align: center;
+    float: left;
+    margin-top: 3vh;
+}
+#aboutme span{
+    font-weight: bold;
+}
+#gpmate1{
+    max-width: 50%;
+    margin-left: 11vw;
+    font-weight: bold;
+    margin-top: 3vh;
+    text-align: center;
+}
+#gpmate2{
+    max-width: 33%;
+    margin-left: 51.5vw;
+    font-weight: bold;
+    position: relative;
+    margin-top: -4vh;
+    text-align: center;
+}
